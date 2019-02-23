@@ -1,0 +1,676 @@
+a-scene{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  pointer-events: none;
+  /*z-index: -1;*/
+}
+
+.aframe {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0f1110;
+}
+
+.navposall {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  display: block;
+  height: 150px;
+  margin-right: 30px;
+  float: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.navpos {
+  position: static;
+  width: 35px;
+  height: 37.5px;
+  margin-top: 0px;
+  border: 1px solid #fff;
+}
+
+._2001spaceodysseycopydiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30vw;
+  height: 100vh;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #10109f;
+  background-image: url('../images/VectorSphere.png');
+  background-position: 0px 0px;
+  background-size: auto 1080px;
+}
+
+.copyalldiv {
+  display: block;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+._3diotext {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.projecttitletext {
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff500;
+  font-size: 32px;
+  line-height: 36px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.text-span {
+  text-decoration: underline;
+}
+
+.infocopyalldiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #fff;
+  background-color: #10109f;
+}
+
+.copytopdiv {
+  height: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #fff;
+}
+
+.text-block-2 {
+  color: #10109f;
+  text-align: center;
+}
+
+.copymiddiv {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  margin: 0px;
+  padding: 0px 10px 30px;
+  border-bottom: 1px solid #fff;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.text-block-3 {
+  width: auto;
+  height: auto;
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: 100;
+  letter-spacing: -2px;
+}
+
+.text-block-3.title {
+  padding-left: 0px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.text-block-3.herobodycopy {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Exo, sans-serif;
+  color: #378e66;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.copybottomdiv {
+  display: block;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #378e66;
+}
+
+.copybottomdiv.responsivecta {
+  position: absolute;
+  left: 0px;
+  top: -100px;
+  right: 0px;
+  z-index: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.allnavbuttondiv {
+  width: 50px;
+  margin-left: 30px;
+  float: left;
+  cursor: crosshair;
+}
+
+/* classes created to reference buttons */
+.updn-btn{
+}
+.rot-btn{
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  clear: left;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.button:hover {
+  background-color: #10109f;
+}
+
+.button:active {
+  background-color: #c112e2;
+}
+
+.button.up {
+  position: relative;
+  float: left;
+  border-width: 1px;
+  text-align: center;
+}
+
+.button.up:active {
+  background-color: #087388;
+}
+
+.button.dn {
+  position: relative;
+  float: none;
+  clear: none;
+  text-align: center;
+}
+
+.button.dn:active {
+  background-color: #087388;
+}
+
+.button.rotate {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  clear: left;
+  text-align: center;
+}
+
+.button.rotate:active {
+  background-color: #087388;
+}
+
+.copygap {
+  height: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 1px dashed #fff;
+}
+
+.copygap.textline {
+  margin-right: 10px;
+}
+
+.moveupcopy {
+  position: relative;
+  top: 0px;
+  width: auto;
+}
+
+.cta-button {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: none;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+.text-block-5 {
+  margin-top: 30px;
+  padding: 2px 4px 2px 2px;
+  border: 1px none #fff;
+  border-top-left-radius: 0px;
+  background-color: #fff;
+  color: blue;
+}
+
+.div-block-7 {
+  width: auto;
+  height: 330px;
+}
+
+.paragraph {
+  margin-top: 2px;
+  padding-right: 3px;
+  padding-left: 3px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 5px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px none #fff;
+}
+
+.row-2 {
+  height: 400px;
+}
+
+.arrowspacer {
+  height: 12vh;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.arrowspacer.asbelow {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.imagetic {
+  display: block;
+  float: left;
+}
+
+.imagetic.lefttic {
+  position: relative;
+}
+
+.imagetic.righttick {
+  position: relative;
+  float: right;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.overlayaframe {
+  width: 70vw;
+}
+
+.aframeoverlaymid {
+  position: relative;
+}
+
+.uploadarrow.uploadright {
+  margin-right: 15px;
+  float: right;
+  clear: none;
+}
+
+.uploadarrow.uploadleft {
+  margin-left: 15px;
+  float: left;
+}
+
+.ctaholderleft {
+  width: 20%;
+  float: left;
+}
+
+.ctaholdercenter {
+  display: block;
+  width: 60%;
+  padding-top: 10px;
+  float: left;
+  text-align: center;
+}
+
+.ctaholderright {
+  width: 20%;
+  float: right;
+}
+
+.responsivedivbottom {
+  position: absolute;
+  left: 0px;
+  top: -200px;
+  right: 0px;
+}
+
+.div-block-8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.aframe3d {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-bottom: 0px;
+  /*background-color: red;*/
+}
+
+.div-block-9 {
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .aframe {
+    width: 100vw;
+  }
+  .navpos {
+    width: 37.5px;
+  }
+  ._2001spaceodysseycopydiv {
+    position: absolute;
+    left: -100vw;
+    top: 0px;
+  }
+  .titlediv.titledivresponsive {
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  ._3diotext._3diotextresponsive {
+    font-size: 14px;
+    text-align: center;
+  }
+  .projecttitletext.projecttitleresponsive {
+    margin-top: 0px;
+    text-align: center;
+  }
+  .text-block-3 {
+    width: auto;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .copybottomdiv.responsivecta {
+    left: 0px;
+    top: auto;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 5px;
+    border: 1px solid #000;
+  }
+  .button.up {
+    width: 50px;
+    padding-right: 0px;
+    padding-left: 2px;
+    text-align: center;
+  }
+  .button.dn {
+    width: 50px;
+    padding-right: 0px;
+    padding-left: 2px;
+    float: left;
+    clear: left;
+  }
+  .button.rotate {
+    width: 50px;
+    padding-right: 0px;
+    padding-left: 2px;
+    float: left;
+  }
+  .cta-button {
+    position: static;
+    display: block;
+    padding-right: auto;
+    padding-left: auto;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .overlayaframe {
+    width: 100vw;
+  }
+  .ctaholdercenter.ctaholdercenterresponsive {
+    width: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 5px;
+    float: none;
+    border-right: 24px solid #fff;
+    border-left: 24px solid #fff;
+  }
+  .responsivedivbottom {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: auto;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #10109f;
+    background-image: url('../images/VectorSphere.png');
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .inforesponsive {
+    font-family: Exo, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  .responsiveinfodiv {
+    position: static;
+    width: 40%;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    border-bottom: 3px solid #087388;
+    background-color: transparent;
+  }
+  .responsiveinfodiv.upload {
+    border-bottom: 3px solid #1a71b1;
+    background-color: transparent;
+  }
+  .responsiveinfodiv.upload.right {
+    float: right;
+    border-top: 3px solid #1a71b1;
+  }
+  .responsiveinfodiv.auto3d {
+    border-bottom: 3px solid #8b2f6b;
+    background-color: transparent;
+  }
+  .responsiveinfodiv.auto3d.right {
+    float: right;
+    border-top: 3px solid #8b2f6b;
+  }
+  .responsiveinfodiv.furnish {
+    float: left;
+    border-top: 3px solid #6d3c88;
+    border-bottom: 3px solid #6d3c88;
+    background-color: transparent;
+  }
+  .responsiveinfodiv.showcase {
+    border-top: 3px solid #087388;
+  }
+  .row1 {
+    width: 50%;
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+  }
+  .rowholder {
+    position: static;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .dashed {
+    padding: 30px 5px;
+    border: 1px dashed #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .aframe {
+    width: 100vw;
+  }
+  .navpos {
+    width: 33.5px;
+    height: 33.5px;
+  }
+  ._2001spaceodysseycopydiv {
+    position: absolute;
+    left: -100vw;
+    top: 0px;
+  }
+  .button.up {
+    width: 30px;
+    height: 45px;
+    font-size: 12px;
+  }
+  .button.dn {
+    width: 30px;
+    height: 45px;
+    font-size: 12px;
+  }
+  .button.rotate {
+    width: 30px;
+    height: 45px;
+    font-size: 12px;
+  }
+  .cta-button {
+    display: inline-block;
+    float: none;
+    clear: none;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .arrowspacer.asabove {
+    height: 17vh;
+  }
+  .inforesponsive {
+    letter-spacing: 2px;
+  }
+  .row1 {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (max-width: 479px) {
+  .copyalldiv {
+    margin-right: 40px;
+  }
+  .projecttitletext.projecttitleresponsive {
+    font-size: 18px;
+  }
+  .cta-button {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .ctaholdercenter.ctaholdercenterresponsive {
+    border-right-width: 6px;
+    border-left-width: 6px;
+  }
+  .inforesponsive {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .responsiveinfodiv.upload {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .responsiveinfodiv.auto3d {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .responsiveinfodiv.furnish {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .responsiveinfodiv.showcase {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .rowholder {
+    margin-top: 5px;
+  }
+}
